@@ -142,7 +142,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  iconAnchor: [12, 42],
 	  popupAnchor: [2, -40],
 	  shadowAnchor: [39, 45],
-	  shadowSize: [54, 51],
+	  shadowSize: [29, 46],
 	  className: 'vector-marker',
 	  prefix: 'icon',
 	  spinClass: 'spin',

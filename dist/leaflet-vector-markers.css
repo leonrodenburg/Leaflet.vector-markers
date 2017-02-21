@@ -21,21 +21,21 @@ Version: 0.0.6
 
 .vector-marker-shadow:before {
   bottom: -13px;
-  box-shadow: 35px -10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 35px -10px 10px rgba(0, 0, 0, 0.2);
   content: "";
-  height: 40%;
+  height: 30%;
   position: absolute;
   right: 21px;
   -ms-transform-origin: 50% 50%;
       transform-origin: 50% 50%;
   -ms-transform: skew(150deg) rotate(-40deg);
       transform: skew(150deg) rotate(-40deg);
-  width: 60%;
+  width: 50%;
   z-index: -1; }
 
 .vector-marker i {
   position: absolute;
-  top: 8px;
+  top: 7px;
   left: 0;
   width: 32px;
   color: #333;
