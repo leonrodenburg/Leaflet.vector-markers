@@ -27,14 +27,14 @@ Version: 0.0.6
 
 .vector-marker-shadow:before {
   bottom: -13px;
-  box-shadow: 35px -10px 10px rgba(0,0,0,0.2);
+  box-shadow: 35px -10px 10px rgba(0,0,0,0.4);
   content: "";
-  height: 30%;
+  height: 40%;
   position: absolute;
   right: 21px;
   transform-origin: 50% 50%;
   transform: skew(150deg) rotate(-40deg);
-  width: 50%;
+  width: 60%;
   z-index: -1;
  }
 
