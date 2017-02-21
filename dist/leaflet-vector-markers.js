@@ -206,8 +206,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 
 	      var iconClasses = options.icon.split(' ');
-	      for (var _i = 0; _i < iconClasses.length; _i++) {
-	        _i.classList.add(iconClasses[_i]);
+	      for (var j = 0; j < iconClasses.length; j++) {
+	        i.classList.add(iconClasses[j]);
 	      }
 
 	      if (options.spin && typeof options.spinClass === 'string') {
