@@ -1,8 +1,8 @@
 import Leaflet from 'leaflet'
 
 const iconOptions = {
-  iconSize: [ 30, 50 ],
-  iconAnchor: [ 15, 50 ],
+  iconSize: [ 25, 45 ],
+  iconAnchor: [ 12, 42 ],
   popupAnchor: [ 2, -40 ],
   shadowAnchor: [ 39, 45 ],
   shadowSize: [ 54, 51 ],
