@@ -144,8 +144,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  shadowAnchor: [39, 45],
 	  shadowSize: [54, 51],
 	  className: 'vector-marker',
-	  prefix: 'fa',
-	  spinClass: 'fa-spin',
+	  prefix: 'icon',
+	  spinClass: 'spin',
 	  extraIconClasses: '',
 	  extraDivClasses: '',
 	  icon: 'home',
@@ -162,7 +162,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function Icon(options) {
 	    _classCallCheck(this, Icon);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Icon).call(this, options));
+	    var _this = _possibleConstructorReturn(this, (Icon.__proto__ || Object.getPrototypeOf(Icon)).call(this, options));
 
 	    _leaflet2.default.Util.setOptions(_this, iconOptions);
 	    _leaflet2.default.Util.setOptions(_this, options);
@@ -204,10 +204,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (options.extraClasses) {
 	        i.classList.add(options.extraClasses);
 	      }
-	      if (options.icon.slice(0, options.prefix.length + 1) === options.prefix + '-') {
+	      if (options.prefix) {
 	        i.classList.add(options.icon);
 	      } else {
-	        i.classList.add(options.prefix + '-' + options.icon);
+	        i.classList.add(options.icon);
 	      }
 	      if (options.spin && typeof options.spinClass === 'string') {
 	        i.classList.add(options.spinClass);

@@ -7,8 +7,8 @@ const iconOptions = {
   shadowAnchor: [ 39, 45 ],
   shadowSize: [ 54, 51 ],
   className: 'vector-marker',
-  prefix: 'fa',
-  spinClass: 'fa-spin',
+  prefix: 'icon',
+  spinClass: 'spin',
   extraIconClasses: '',
   extraDivClasses: '',
   icon: 'home',
@@ -58,7 +58,7 @@ export default class Icon extends Leaflet.Icon {
       i.classList.add(options.extraClasses)
     }
     if (options.prefix) {
-      i.classList.add(options.prefix + '-' + options.icon)
+      i.classList.add(options.icon)
     } else {
       i.classList.add(options.icon)
     }
