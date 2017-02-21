@@ -204,11 +204,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (options.extraClasses) {
 	        i.classList.add(options.extraClasses);
 	      }
-	      if (options.prefix) {
-	        i.classList.add(options.icon);
-	      } else {
-	        i.classList.add(options.icon);
+
+	      var iconClasses = options.icon.split(' ');
+	      for (var _i = 0; _i < iconClasses.length; _i++) {
+	        _i.classList.add(iconClasses[_i]);
 	      }
+
 	      if (options.spin && typeof options.spinClass === 'string') {
 	        i.classList.add(options.spinClass);
 	      }

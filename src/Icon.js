@@ -57,11 +57,12 @@ export default class Icon extends Leaflet.Icon {
     if (options.extraClasses) {
       i.classList.add(options.extraClasses)
     }
-    if (options.prefix) {
-      i.classList.add(options.icon)
-    } else {
-      i.classList.add(options.icon)
+
+    let iconClasses = options.icon.split(' ');
+    for (let i = 0; i < iconClasses.length; i++) {
+      i.classList.add(iconClasses[i])
     }
+
     if (options.spin && typeof options.spinClass === 'string') {
       i.classList.add(options.spinClass)
     }
