@@ -5,8 +5,8 @@ Version: 0.0.6
 */
 /* Marker setup */
 .vector-marker {
-  width: 35px;
-  height: 46px;
+  width: 30px;
+  height: 41px;
   position: absolute;
   left: 0;
   top: 0;
@@ -41,7 +41,7 @@ Version: 0.0.6
   color: #333;
   margin: auto;
   display: inline-block;
-  font-size: 14px; }
+  font-size: 10px; }
 
 .vector-marker i.maki-icon {
   width: 24px;
